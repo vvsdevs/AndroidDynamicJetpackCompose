@@ -1,5 +1,5 @@
-![]()
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![](https://jitpack.io/v/vvsdevs/AndroidDynamicLayoutLoader.svg)](https://jitpack.io/#vvsdevs/AndroidDynamicLayoutLoader) [![API](https://img.shields.io/badge/API-19%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=19) [![CircleCI](https://circleci.com/gh/CymChad/BaseRecyclerViewAdapterHelper/tree/master.svg?style=svg)]
+![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/dynamic.png)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/badge/Jetpack%20Compose-1.0.1-brightgreen)] [![](https://jitpack.io/v/vvsdevs/AndroidDynamicJetpackCompose.svg)](https://jitpack.io/#vvsdevs/AndroidDynamicJetpackCompose)(https://jitpack.io/#vvsdevs/AndroidDynamicLayoutLoader) [![API](https://img.shields.io/badge/API-19%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=19) ![CircleCI](https://circleci.com/gh/CymChad/BaseRecyclerViewAdapterHelper/tree/master.svg?style=svg)
 
 # Android Remote Jetpack Compose
 
@@ -27,11 +27,13 @@ Android Dynamic Jetpack Compose is a powerful library that enables dynamic layou
 1. Add repository in root ```build.gradle```
 
 ```gradle
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
-    }
-}
+dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
 2. Add the dependency
@@ -96,5 +98,27 @@ class MainActivity : ComponentActivity(), ComposeCallback {
 
 ## Manual
 
-For advanced usage, take a look at this awesome [manual](https://github.com/vvsdevs/AndroidDynamicLayoutLoader/blob/master/MANUAL.md).
+## Available soon...
+
+## Supported UI Components
+
+	•	Text: Displays text with customizable color, font size, and alignment.
+	•	Image: Loads images from URLs with scaling options.
+	•	Button: Configurable with actions, background color, and text color.
+	•	TextField: Editable input fields for user data entry.
+	•	Card: Displays content with elevation and rounded corners.
+	•	Column/Row: Organizes child components vertically or horizontally.
+	•	ScrollView: Scrollable layout for vertical content.
+	•	Divider: Adds a horizontal line between components.
+	•	Switch/Checkbox: Toggles for user interactions.
+
+Contributing
+
+We welcome contributions to Android Remote Jetpack Compose! If you want to contribute:
+
+	1.	Fork the repository.
+	2.	Create a new feature branch.
+	3.	Make your changes and submit a pull request.
+
+Feel free to open issues or pull requests on GitHub for any bug fixes or enhancements.
 
