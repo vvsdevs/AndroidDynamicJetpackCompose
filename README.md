@@ -1,5 +1,5 @@
 ![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/dynamic.png)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/badge/Jetpack%20Compose-1.0.1-brightgreen)] [![](https://jitpack.io/v/vvsdevs/AndroidDynamicJetpackCompose.svg)](https://jitpack.io/#vvsdevs/AndroidDynamicJetpackCompose)(https://jitpack.io/#vvsdevs/AndroidDynamicLayoutLoader) [![API](https://img.shields.io/badge/API-19%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=19) ![CircleCI](https://circleci.com/gh/CymChad/BaseRecyclerViewAdapterHelper/tree/master.svg?style=svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/badge/Jetpack%20Compose-1.0.1-brightgreen)] [![](https://jitpack.io/v/vvsdevs/AndroidDynamicJetpackCompose.svg)](https://jitpack.io/#vvsdevs/AndroidDynamicJetpackCompose) [![API](https://img.shields.io/badge/API-19%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=19) ![CircleCI](https://circleci.com/gh/CymChad/BaseRecyclerViewAdapterHelper/tree/master.svg?style=svg)
 
 # Android Remote Jetpack Compose
 
