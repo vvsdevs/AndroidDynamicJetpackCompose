@@ -5,8 +5,13 @@
 
 Android Dynamic Jetpack Compose is a powerful library that enables dynamic layout rendering based on JSON configurations using Jetpack Compose. This library allows developers to design and update UI elements dynamically without needing to release a new app update, making it a flexible and efficient solution for Android applications.
 
-## Few of Basic Designs that we did using this library 
-![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/home.png) ![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/player.png) ![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/login.png)
+## Few of Basic Designs that we did using this library
+
+<p align="center">
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/home.png" alt="Home Design" width="300"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/player.png" alt="Player Design" width="300"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/login.png" alt="Login Design" width="300"/>
+</p>
 
 ## Features
 - Dynamic rendering of Jetpack Compose layouts from JSON configurations.
