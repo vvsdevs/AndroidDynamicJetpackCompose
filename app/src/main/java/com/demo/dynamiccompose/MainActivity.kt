@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity(), ComposeCallback {
     lateinit var mainPresenter: MainPresenter
 
     private val config = RemoteComposeConfig(
-        baseUrl = "https://deharve.com/",
+        baseUrl = "https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/",
         uiComponentPath = "compose.json",
         screenPath = "compose_screen1.json"
     )
