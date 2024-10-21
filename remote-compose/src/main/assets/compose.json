@@ -1,0 +1,475 @@
+{
+  "type": "ScrollView",
+  "modifier": {
+    "padding": 0,
+    "backgroundColor": "#F0F0F0"
+  },
+  "children": [
+    {
+      "type": "LazyRow",
+      "modifier": {
+        "padding": 8
+      },
+      "children": [
+        {
+          "type": "Card",
+          "modifier": {
+            "width": 320,
+            "height": 180,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 15
+          },
+          "backgroundColor": "#FFFFFF",
+          "elevation": 4,
+          "borderColor": "#FF0000",
+          "borderWidth": 2,
+          "navigationTarget": "screen1",
+          "content": {
+            "type": "Image",
+            "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/6181/1729334766181-i",
+            "modifier": {
+              "contentScale": "fitXY"
+            }
+          }
+        },
+        {
+          "type": "Card",
+          "modifier": {
+            "width": 320,
+            "height": 180,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 4
+          },
+          "backgroundColor": "#FFFFFF",
+          "navigationTarget": "signinScreen",
+          "content": {
+            "type": "Image",
+            "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/9438/1729360299438-i",
+            "modifier": {
+              "contentScale": "fitXY"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "text": "Continue Watching",
+      "modifier": {
+        "padding": 8
+      },
+      "color": "#000000",
+      "fontSize": 16,
+      "textAlign": "start"
+    },
+    {
+      "type": "LazyRow",
+      "modifier": {
+        "padding": 8,
+        "height": 150
+      },
+      "children": [
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/l_discovery:PP:usp_callouts_on_artwork:New_Release:New_Release_Vertical/fl_relative,w_1.0/c_crop,fl_relative,w_1.0,h_1.0/fl_layer_apply/f_auto,q_90,w_384/sources/r1/cms/prod/3597/1729234213597-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 1",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/l_discovery:PP:usp_callouts_on_artwork:New_Release:New_Release_Vertical/fl_relative,w_1.0/c_crop,fl_relative,w_1.0,h_1.0/fl_layer_apply/f_auto,q_90,w_384/sources/r1/cms/prod/2937/1728844492937-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 2",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/l_discovery:PP:usp_callouts_on_artwork:New_Season:New_Season_Vertical/fl_relative,w_1.0/c_crop,fl_relative,w_1.0,h_1.0/fl_layer_apply/f_auto,q_90,w_384/sources/r1/cms/prod/3258/1728781803258-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 3",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/l_discovery:PP:usp_callouts_on_artwork:Newly_Added:Newly_Added_Vertical/fl_relative,w_1.0/c_crop,fl_relative,w_1.0,h_1.0/fl_layer_apply/f_auto,q_90,w_384/sources/r1/cms/prod/8601/1728907348601-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 4",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "text": "Live Streaming...",
+      "modifier": {
+        "padding": 8
+      },
+      "color": "#000000",
+      "fontSize": 16,
+      "textAlign": "start"
+    },
+    {
+      "type": "LazyRow",
+      "modifier": {
+        "padding": 8,
+        "height": 150
+      },
+      "children": [
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 150,
+            "height": 100,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7290/1729334737290-h",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 1",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 150,
+            "height": 100,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/6262/1729271606262-h",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 2",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 150,
+            "height": 100,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/2143/1728923712143-h",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 3",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 150,
+            "height": 100,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/7127/1728925977127-h",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 4",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "Text",
+      "text": "Popular Shows",
+      "modifier": {
+        "padding": 8
+      },
+      "color": "#000000",
+      "fontSize": 16,
+      "textAlign": "start"
+    },
+    {
+      "type": "LazyRow",
+      "modifier": {
+        "padding": 8,
+        "height": 150
+      },
+      "children": [
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/l_discovery:PP:usp_callouts_on_artwork:New_Season:New_Season_Vertical/fl_relative,w_1.0/c_crop,fl_relative,w_1.0,h_1.0/fl_layer_apply/f_auto,q_90,w_384/sources/r1/cms/prod/970/1728217580970-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 1",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4960/1727435714960-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 2",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/4209/1713415414209-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 3",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Card",
+          "navigationTarget": "screen1",
+          "modifier": {
+            "width": 100,
+            "height": 130,
+            "padding": 8,
+            "cornerRadius": 8,
+            "elevation": 2
+          },
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_384/sources/r1/cms/prod/3052/1729134893052-v",
+                "modifier": {
+                  "contentScale": "fitXY"
+                }
+              },
+              {
+                "type": "Text",
+                "text": "Title 4",
+                "color": "#000000",
+                "fontSize": 12,
+                "textAlign": "center"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

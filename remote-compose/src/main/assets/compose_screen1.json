@@ -1,0 +1,743 @@
+{
+  "type": "ScrollView",
+  "modifier": {
+    "padding": 0,
+    "backgroundColor": "#F5F5F5",
+    "fillMaxWidth": true,
+    "fillMaxHeight": true
+  },
+  "screens": [
+    {
+      "id": "screen10",
+      "type": "ScrollView",
+      "modifier": {
+        "padding": 16,
+        "backgroundColor": "#1E1E1E"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "text": "Welcome to Screen 1",
+          "modifier": {
+            "padding": 16
+          },
+          "color": "#FFFFFF",
+          "fontSize": 24,
+          "textAlign": "center"
+        },
+        {
+          "type": "Image",
+          "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/6181/1729334766181-i",
+          "modifier": {
+            "padding": 16,
+            "width": 300,
+            "height": 150,
+            "contentScale": "fillBounds"
+          },
+          "contentDescription": "Sample Image"
+        },
+        {
+          "type": "Button",
+          "text": "Explore",
+          "modifier": {
+            "padding": 16,
+            "backgroundColor": "#007BFF"
+          },
+          "textColor": "#FFFFFF",
+          "elevation": 4,
+          "action": "navigateToScreen2"
+        },
+        {
+          "type": "Card",
+          "modifier": {
+            "padding": 16,
+            "width": 300,
+            "cornerRadius": 12,
+            "elevation": 6
+          },
+          "backgroundColor": "#FFFFFF",
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Text",
+                "text": "Featured Article",
+                "modifier": {
+                  "padding": 8
+                },
+                "color": "#000000",
+                "fontSize": 18,
+                "textAlign": "start"
+              },
+              {
+                "type": "Image",
+                "imageUrl": "https://rollx.xyz/dd/images/full/1200x470_4.png",
+                "modifier": {
+                  "padding": 8,
+                  "height": 100,
+                  "contentScale": "fillBounds"
+                },
+                "contentDescription": "Article Image"
+              },
+              {
+                "type": "Text",
+                "text": "Read more about this amazing topic!",
+                "modifier": {
+                  "padding": 8
+                },
+                "color": "#000000",
+                "fontSize": 14,
+                "textAlign": "start"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "screen2",
+      "type": "ScrollView",
+      "modifier": {
+        "padding": 16,
+        "backgroundColor": "#282C34"
+      },
+      "children": [
+        {
+          "type": "Text",
+          "text": "Explore Screen 2",
+          "modifier": {
+            "padding": 16
+          },
+          "color": "#61DAFB",
+          "fontSize": 24,
+          "textAlign": "center"
+        },
+        {
+          "type": "Card",
+          "modifier": {
+            "padding": 16,
+            "width": 300,
+            "height": 200,
+            "cornerRadius": 12,
+            "elevation": 8
+          },
+          "backgroundColor": "#1C1C1C",
+          "borderColor": "#61DAFB",
+          "borderWidth": 2,
+          "content": {
+            "type": "Column",
+            "children": [
+              {
+                "type": "Image",
+                "imageUrl": "https://rollx.xyz/dd/images/full/1200x470_3.png",
+                "modifier": {
+                  "padding": 8,
+                  "height": 120,
+                  "contentScale": "fillBounds"
+                },
+                "contentDescription": "Featured Content"
+              },
+              {
+                "type": "Text",
+                "text": "Join our community!",
+                "modifier": {
+                  "padding": 8
+                },
+                "color": "#FFFFFF",
+                "fontSize": 16,
+                "textAlign": "center"
+              },
+              {
+                "type": "Button",
+                "text": "Sign Up",
+                "modifier": {
+                  "padding": 8,
+                  "backgroundColor": "#61DAFB"
+                },
+                "textColor": "#000000",
+                "elevation": 4,
+                "action": "signUpAction"
+              }
+            ]
+          }
+        },
+        {
+          "type": "Text",
+          "text": "Stay Connected!",
+          "modifier": {
+            "padding": 16
+          },
+          "color": "#FFFFFF",
+          "fontSize": 20,
+          "textAlign": "center"
+        },
+        {
+          "type": "Button",
+          "text": "Back to Home",
+          "modifier": {
+            "padding": 16,
+            "backgroundColor": "#FF6347"
+          },
+          "textColor": "#FFFFFF",
+          "elevation": 6,
+          "action": "navigateToHome"
+        }
+      ]
+    },
+    {
+      "id": "signinScreen",
+      "type": "ScrollView",
+      "modifier": {
+        "backgroundColor": "#F5F5F5",
+        "fillMaxWidth": true,
+        "fillMaxHeight": true
+      },
+      "children": [
+        {
+          "type": "Text",
+          "text": "Sign In",
+          "modifier": {
+            "padding": 16
+          },
+          "color": "#333333",
+          "fontSize": 32,
+          "textAlign": "center"
+        },
+        {
+          "type": "TextField",
+          "hint": "Email",
+          "inputType": "email",
+          "value": "",
+          "modifier": {
+            "padding": 16,
+            "backgroundColor": "#FFFFFF",
+            "cornerRadius": 8,
+            "width": 300
+          }
+        },
+        {
+          "type": "TextField",
+          "hint": "Password",
+          "inputType": "password",
+          "value": "",
+          "modifier": {
+            "padding": 16,
+            "backgroundColor": "#FFFFFF",
+            "cornerRadius": 8,
+            "width": 300
+          }
+        },
+        {
+          "type": "Button",
+          "text": "Login",
+          "modifier": {
+            "padding": 16,
+            "cornerRadius": 8,
+            "width": 300,
+            "height": 50
+          },
+          "textColor": "#FFFFFF",
+          "elevation": 4,
+          "action": "loginAction"
+        },
+        {
+          "type": "Text",
+          "text": "Forgot your password?",
+          "modifier": {
+            "padding": 8
+          },
+          "color": "#007BFF",
+          "fontSize": 14,
+          "textAlign": "center",
+          "action": "forgotPasswordAction"
+        },
+        {
+          "type": "Text",
+          "text": "Don't have an account? Sign up",
+          "modifier": {
+            "padding": 8
+          },
+          "color": "#007BFF",
+          "fontSize": 14,
+          "textAlign": "center",
+          "action": "signUpAction"
+        }
+      ]
+    },
+    {
+      "id": "signup_screen",
+      "type": "ScrollView",
+      "modifier": {
+        "padding": 16,
+        "backgroundColor": "#F5F5F5",
+        "fillMaxWidth": true,
+        "fillMaxHeight": true
+      },
+      "children": [
+        {
+          "type": "Text",
+          "text": "Create an Account",
+          "modifier": {
+            "padding": 16
+          },
+          "color": "#000000",
+          "fontSize": 24,
+          "textAlign": "center"
+        },
+        {
+          "type": "TextField",
+          "hint": "First Name",
+          "modifier": {
+            "padding": 8,
+            "width": 300
+          }
+        },
+        {
+          "type": "TextField",
+          "hint": "Last Name",
+          "modifier": {
+            "padding": 8,
+            "width": 300
+          }
+        },
+        {
+          "type": "TextField",
+          "hint": "Email",
+          "modifier": {
+            "padding": 8,
+            "width": 300
+          }
+        },
+        {
+          "type": "TextField",
+          "hint": "Password",
+          "modifier": {
+            "padding": 8,
+            "width": 300
+          }
+        },
+        {
+          "type": "TextField",
+          "hint": "Confirm Password",
+          "modifier": {
+            "padding": 8,
+            "width": 300
+          }
+        },
+        {
+          "type": "Button",
+          "text": "Sign Up",
+          "modifier": {
+            "padding": 16,
+            "cornerRadius": 8
+          },
+          "textColor": "#FFFFFF",
+          "elevation": 4,
+          "action": "signUpAction"
+        }
+      ]
+    },{
+      "id": "screen1",
+      "type": "Column",
+      "modifier": {
+        "padding": 0,
+        "backgroundColor": "#000000"
+      },
+      "children": [
+        {
+          "type": "Box",
+          "modifier": {
+            "height": "260",
+            "backgroundColor": "#000000"
+          },
+          "children": [
+            {
+              "type": "Image",
+              "imageUrl": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/6464/1729448576464-i",
+              "modifier": {
+                "fillMaxWidth": true,
+                "contentScale": "fitXY"
+              },
+              "contentDescription": "Video Player Placeholder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "modifier": {
+            "padding": 16,
+            "backgroundColor": "#1E1E1E",
+            "fillMaxheight": true
+          },
+          "children": [
+            {
+              "type": "Text",
+              "text": "Live Scores",
+              "modifier": {
+                "padding": 8
+              },
+              "color": "#FFFFFF",
+              "fontSize": 18,
+              "textAlign": "start"
+            },
+            {
+              "type": "LazyRow",
+              "modifier": {
+                "padding": 8,
+                "height": 150
+              },
+              "children": [
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team A vs Team B",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 120/5",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team C vs Team D",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 98/3",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team C vs Team D",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 98/3",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "LazyRow",
+              "modifier": {
+                "padding": 8,
+                "height": 150
+              },
+              "children": [
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team A vs Team B",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 120/5",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team C vs Team D",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 98/3",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team C vs Team D",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 98/3",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "LazyRow",
+              "modifier": {
+                "padding": 8,
+                "height": 150
+              },
+              "children": [
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team A vs Team B",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 120/5",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team C vs Team D",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 98/3",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "Card",
+                  "modifier": {
+                    "width": 120,
+                    "height": 100,
+                    "padding": 8,
+                    "cornerRadius": 8,
+                    "elevation": 2,
+                    "backgroundColor": "#FFFFFF"
+                  },
+                  "content": {
+                    "type": "Column",
+                    "children": [
+                      {
+                        "type": "Text",
+                        "text": "Team C vs Team D",
+                        "modifier": {
+                          "padding": 8
+                        },
+                        "color": "#000000",
+                        "fontSize": 14,
+                        "textAlign": "center"
+                      },
+                      {
+                        "type": "Text",
+                        "text": "Score: 98/3",
+                        "modifier": {
+                          "padding": 4
+                        },
+                        "color": "#000000",
+                        "fontSize": 12,
+                        "textAlign": "center"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+
+
+
+
+  ]
+}
