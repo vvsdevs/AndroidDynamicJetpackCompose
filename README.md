@@ -8,9 +8,9 @@ Android Dynamic Jetpack Compose is a powerful library that enables dynamic layou
 ## Few of Basic Designs that we did using this library
 
 <p align="center">
-  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/home.png" alt="Home Design" width="300"/>
-  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/player.png" alt="Player Design" width="300"/>
-  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/login.png" alt="Login Design" width="300"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/home.png" alt="Home Design" width="200"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/player.png" alt="Player Design" width="200"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/login.png" alt="Login Design" width="200"/>
 </p>
 
 ## Features
@@ -30,16 +30,7 @@ Android Dynamic Jetpack Compose is a powerful library that enables dynamic layou
     - [Loading a Screen](#loading-a-screen)
     - [Event Listeners](#event-listeners)
 - [Components](#components)
-    - [Text](#text)
-    - [Button](#button)
-    - [Image](#image)
-    - [LazyRow](#lazyrow)
-    - [Column](#column)
-    - [Card](#card)
-    - [Switch](#switch)
-    - [Slider](#slider)
-- [Modifiers](#modifiers)
-- [Customization](#customization)
+- [Customization](#Manual)
 - [License](#license)
 
 ## Installation
@@ -396,4 +387,7 @@ We welcome contributions to Android Remote Jetpack Compose! If you want to contr
 	3.	Make your changes and submit a pull request.
 
 Feel free to open issues or pull requests on GitHub for any bug fixes or enhancements.
+
+## License
+This project is licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
 
