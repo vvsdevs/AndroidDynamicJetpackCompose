@@ -8,6 +8,692 @@
   },
   "screens": [
     {
+      "id": "zepto",
+      "type": "ScrollView",
+      "modifier": {
+        "padding": 0,
+        "backgroundColor": "#F8F8F8"
+      },
+      "children": [
+        {
+          "type": "ScrollView",
+          "children": [
+            {
+              "type": "Column",
+              "children": [
+                {
+                  "type": "Column",
+                  "modifier": {
+                    "backgroundColor": "#8B1E3F",
+                    "fillMaxWidth": true,
+                    "fillMaxHeight": true
+                  },
+                  "children": [
+                    {
+                      "type": "Row",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "padding": 8,
+                        "alignItems": "center"
+                      },
+                      "children": [
+                        {
+                          "type": "TextField",
+                          "hint": "Search for items...",
+                          "modifier": {
+                            "padding": 8,
+                            "backgroundColor": "#FFFFFF",
+                            "fillMaxWidth": true,
+                            "cornerRadius": 8,
+                            "elevation": 4
+                          },
+                          "iconStart": {
+                            "type": "Icon",
+                            "iconName": "search",
+                            "color": "#9E9E9E",
+                            "modifier": {
+                              "padding": 8,
+                              "size": 20
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "Image",
+                  "imageUrl": "https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.5.0/tr:w-640,ar-328-120,pr-true,f-auto,q-80//images/paan-corner/paan-corner-banner-mweb.png",
+                  "modifier": {
+                    "padding": 8,
+                    "fillMaxWidth": true,
+                    "fillMaxHeight": true,
+                    "cornerRadius": 12,
+                    "contentScale": "fitXY"
+                  },
+                  "contentDescription": "Promotional Banner"
+                },
+                {
+                  "type": "Box",
+                  "modifier": {
+                    "fillMaxWidth": true,
+                    "fillMaxHeight": true,
+                    "backgroundColor": "#F8F8F8"
+                  },
+                  "children": [
+                    {
+                      "type": "Column",
+                      "modifier": {
+                        "padding": 8,
+                        "fillMaxHeight": true,
+                        "backgroundColor": "#F8F8F8",
+                        "fillMaxWidth": true
+                      },
+                      "children": [
+                        {
+                          "type": "Image",
+                          "imageUrl": "https://cdn.zeptonow.com/production///tr:w-1280,ar-1440-320,pr-true,f-auto,q-80/inventory/banner/410cef80-1cfc-4934-8fab-bfeb936afe44.png",
+                          "modifier": {
+                            "height": 100,
+                            "fillMaxWidth": true,
+                            "contentScale": "fillBounds"
+                          },
+                          "contentDescription": "Top Background Image"
+                        },
+                        {
+                          "type": "LazyRow",
+                          "modifier": {
+                            "padding": 8,
+                            "height": 150
+                          },
+                          "children": [
+                            {
+                              "type": "Card",
+                              "modifier": {
+                                "width": 100,
+                                "height": 100,
+                                "padding": 8,
+                                "cornerRadius": 8,
+                                "elevation": 2
+                              },
+                              "content": {
+                                "type": "Column",
+                                "children": [
+                                  {
+                                    "type": "Image",
+                                    "imageUrl": "https://cdn.zeptonow.com/production///tr:w-312,ar-312-276,pr-true,f-auto,q-80/inventory/banner/ac6f1677-4c6a-420a-b881-d1036290c85e.png",
+                                    "modifier": {
+                                      "height": 100,
+                                      "contentScale": "fitXY"
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "color": "#000000",
+                                    "fontSize": 12,
+                                    "textAlign": "center"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "Card",
+                              "modifier": {
+                                "width": 100,
+                                "height": 100,
+                                "padding": 8,
+                                "cornerRadius": 8,
+                                "elevation": 2
+                              },
+                              "content": {
+                                "type": "Column",
+                                "children": [
+                                  {
+                                    "type": "Image",
+                                    "imageUrl": "https://cdn.zeptonow.com/production///tr:w-312,ar-312-276,pr-true,f-auto,q-80/inventory/banner/0bdeaec5-edab-4565-ad95-7b8ac247844a.png",
+                                    "modifier": {
+                                      "height": 100,
+                                      "contentScale": "fitXY"
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "text": "Festive Decor",
+                                    "color": "#000000",
+                                    "fontSize": 12,
+                                    "textAlign": "center"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "Card",
+                              "modifier": {
+                                "width": 100,
+                                "height": 100,
+                                "padding": 8,
+                                "cornerRadius": 8,
+                                "elevation": 2
+                              },
+                              "content": {
+                                "type": "Column",
+                                "children": [
+                                  {
+                                    "type": "Image",
+                                    "imageUrl": "https://cdn.zeptonow.com/production///tr:w-312,ar-312-276,pr-true,f-auto,q-80/inventory/banner/d39892f7-7d32-4044-a119-e0ef17b37852.png",
+                                    "modifier": {
+                                      "height": 100,
+                                      "contentScale": "fitXY"
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "text": "Electronics Mart",
+                                    "color": "#000000",
+                                    "fontSize": 12,
+                                    "textAlign": "center"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "LazyRow",
+                          "modifier": {
+                            "padding": 8,
+                            "height": 150
+                          },
+                          "children": [
+                            {
+                              "type": "Card",
+                              "modifier": {
+                                "width": 100,
+                                "height": 100,
+                                "padding": 8,
+                                "cornerRadius": 8,
+                                "elevation": 2
+                              },
+                              "content": {
+                                "type": "Column",
+                                "children": [
+                                  {
+                                    "type": "Image",
+                                    "imageUrl": "https://cdn.zeptonow.com/production///tr:w-312,ar-312-276,pr-true,f-auto,q-80/inventory/banner/15e8a008-3eb5-4ecc-b5cc-44ed77b7a31e.png",
+                                    "modifier": {
+                                      "height": 100,
+                                      "contentScale": "fitXY"
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "text": "Fruits & Vegetables",
+                                    "color": "#000000",
+                                    "fontSize": 12,
+                                    "textAlign": "center"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "Card",
+                              "modifier": {
+                                "width": 100,
+                                "height": 100,
+                                "padding": 8,
+                                "cornerRadius": 8,
+                                "elevation": 2
+                              },
+                              "content": {
+                                "type": "Column",
+                                "children": [
+                                  {
+                                    "type": "Image",
+                                    "imageUrl": "https://cdn.zeptonow.com/production///tr:w-312,ar-312-276,pr-true,f-auto,q-80/inventory/banner/81108a76-2ff2-4986-83aa-abbebd677d0a.png",
+                                    "modifier": {
+                                      "height": 100,
+                                      "contentScale": "fitXY"
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "text": "Dairy & Eggs",
+                                    "color": "#000000",
+                                    "fontSize": 12,
+                                    "textAlign": "center"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "type": "Card",
+                              "modifier": {
+                                "width": 100,
+                                "height": 100,
+                                "padding": 8,
+                                "cornerRadius": 8,
+                                "elevation": 2
+                              },
+                              "content": {
+                                "type": "Column",
+                                "children": [
+                                  {
+                                    "type": "Image",
+                                    "imageUrl": "https://cdn.zeptonow.com/production///tr:w-312,ar-312-276,pr-true,f-auto,q-80/inventory/banner/8aa52666-9778-4d3f-8eec-81005a35fe11.png",
+                                    "modifier": {
+                                      "height": 100,
+                                      "contentScale": "fitXY"
+                                    }
+                                  },
+                                  {
+                                    "type": "Text",
+                                    "text": "Snacks & Beverages",
+                                    "color": "#000000",
+                                    "fontSize": 12,
+                                    "textAlign": "center"
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Image",
+                          "imageUrl": "https://cdn.zeptonow.com/production///tr:w-1080,ar-1080-138,pr-true,f-auto,q-80/inventory/banner/33eb69d5-3361-4670-b584-6162c1fd9025.png",
+                          "modifier": {
+                            "height": 50,
+                            "fillMaxWidth": true,
+                            "contentScale": "fillBounds",
+                            "alignParentBottom": true
+                          },
+                          "contentDescription": "Bottom Background Image"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "LazyRow",
+                  "modifier": {
+                    "padding": 8
+                  },
+                  "children": [
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "width": 320,
+                        "height": 180,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-912,ar-912-570,pr-true,f-auto,q-80/inventory/banner/41b632ef-743e-4c56-a25c-1780ed8c0e5f.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "width": 320,
+                        "height": 180,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 4
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "navigationTarget": "signinScreen",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-970,ar-970-560,pr-true,f-auto,q-80/inventory/banner/bd6d5804-7dac-4278-9cc5-2bdd509f4fec.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "width": 320,
+                        "height": 180,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 4
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "navigationTarget": "signinScreen",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-912,ar-912-570,pr-true,f-auto,q-80/inventory/banner/df9481b0-0399-482a-b38c-74a55dc4f418-new_HomePage_Banner",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "width": 320,
+                        "height": 180,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 4
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "navigationTarget": "signinScreen",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-912,ar-912-570,pr-true,f-auto,q-80/inventory/banner/1b77dda6-da98-43aa-bc0e-2c50dd88dee1-gamification_HomePage_Banner",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "width": 320,
+                        "height": 180,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 4
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "navigationTarget": "signinScreen",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-927,ar-927-534,pr-true,f-auto,q-80/inventory/banner/b29d6586-f0b4-42c6-bbf4-fd55ec0523b6.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "width": 320,
+                        "height": 180,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 4
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "navigationTarget": "signinScreen",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-912,ar-912-570,pr-true,f-auto,q-80/inventory/banner/8aa6b4b1-c7ee-485f-a29c-40db261449f9.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "LazyRow",
+                  "modifier": {
+                    "padding": 8
+                  },
+                  "children": [
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/8244d5f0-ffd5-44f8-99e2-71c19f52c198.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-313,ar-313-307,pr-true,f-auto,q-80/inventory/banner/6d8edb29-c937-4a80-85e6-5631c0fa990e.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/f42a45fb-fd8c-4d66-8b6f-1c910090f3af.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/8244d5f0-ffd5-44f8-99e2-71c19f52c198.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/82a505dd-6aed-48c1-8ee8-49b1b2ea690c.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/8244d5f0-ffd5-44f8-99e2-71c19f52c198.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/82a505dd-6aed-48c1-8ee8-49b1b2ea690c.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-312,ar-312-306,pr-true,f-auto,q-80/inventory/banner/1f14651b-86be-4314-ae86-75929c0fef11.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/8244d5f0-ffd5-44f8-99e2-71c19f52c198.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/8244d5f0-ffd5-44f8-99e2-71c19f52c198.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    },
+                    {
+                      "type": "Card",
+                      "modifier": {
+                        "fillMaxWidth": true,
+                        "height": 100,
+                        "padding": 8,
+                        "cornerRadius": 8,
+                        "elevation": 15
+                      },
+                      "backgroundColor": "#FFFFFF",
+                      "elevation": 4,
+                      "borderColor": "#FF0000",
+                      "borderWidth": 2,
+                      "navigationTarget": "zepto",
+                      "content": {
+                        "type": "Image",
+                        "imageUrl": "https://cdn.zeptonow.com/production///tr:w-416,ar-416-408,pr-true,f-auto,q-80/inventory/banner/8244d5f0-ffd5-44f8-99e2-71c19f52c198.png",
+                        "modifier": {
+                          "contentScale": "fitXY"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "screen10",
       "type": "ScrollView",
       "modifier": {
@@ -336,8 +1022,9 @@
           "action": "signUpAction"
         }
       ]
-    },{
-      "id": "screen1",
+    },
+    {
+      "id": "hotstar_player",
       "type": "Column",
       "modifier": {
         "padding": 0,
@@ -735,9 +1422,5 @@
         }
       ]
     }
-
-
-
-
   ]
 }
