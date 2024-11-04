@@ -1,4 +1,4 @@
-package com.android.dynamicJetpackCompose.model
+package com.android.dynamicjetpackcompose.model
 
 data class ModifierData(
     val padding: Int? = null,

@@ -1,9 +1,9 @@
-package com.android.dynamicJetpackCompose.presenter
+package com.android.dynamicjetpackcompose.presenter
 
 import android.util.Log
-import com.android.dynamicJetpackCompose.model.UIComponent
-import com.android.dynamicJetpackCompose.network.ApiService
-import com.android.dynamicJetpackCompose.utils.RemoteComposeConfig
+import com.android.dynamicjetpackcompose.model.UIComponent
+import com.android.dynamicjetpackcompose.network.ApiService
+import com.android.dynamicjetpackcompose.utils.RemoteComposeConfig
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

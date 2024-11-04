@@ -1,8 +1,8 @@
-package com.android.dynamicJetpackCompose.network
+package com.android.dynamicjetpackcompose.network
 
-import com.android.dynamicJetpackCompose.model.UIComponent
-import com.android.dynamicJetpackCompose.presenter.MainPresenter
-import com.android.dynamicJetpackCompose.utils.RemoteComposeConfig
+import com.android.dynamicjetpackcompose.model.UIComponent
+import com.android.dynamicjetpackcompose.presenter.MainPresenter
+import com.android.dynamicjetpackcompose.utils.RemoteComposeConfig
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import dagger.Module
@@ -29,7 +29,7 @@ object NetworkModule {
     @Singleton
     fun provideRemoteComposeConfig(): RemoteComposeConfig {
         return RemoteComposeConfig(
-            baseUrl = "https://raw.githubusercontent.com/vvsdevs/AndroidDynamicJetpackCompose/refs/heads/main/remote-compose/src/main/assets/",
+            baseUrl = "https://https://raw.githubusercontent.com/vvsdevs/AndroidDynamicJetpackCompose/refs/tags/v1.3.0/remote-compose/src/main/assets/",
             uiComponentPath = "compose.json",
             screenPath = "compose_screen1.json",
             loadFrom = "remote"

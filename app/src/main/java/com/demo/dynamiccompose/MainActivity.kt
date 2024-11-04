@@ -26,11 +26,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.android.dynamicJetpackCompose.compose.DynamicLayout
-import com.android.dynamicJetpackCompose.model.UIComponent
-import com.android.dynamicJetpackCompose.presenter.ComposeCallback
-import com.android.dynamicJetpackCompose.presenter.MainPresenter
-import com.android.dynamicJetpackCompose.utils.RemoteComposeConfig
+import com.android.dynamicjetpackcompose.compose.DynamicLayout
+import com.android.dynamicjetpackcompose.model.UIComponent
+import com.android.dynamicjetpackcompose.presenter.ComposeCallback
+import com.android.dynamicjetpackcompose.presenter.MainPresenter
+import com.android.dynamicjetpackcompose.utils.RemoteComposeConfig
 import com.demo.dynamiccompose.ui.theme.AndroidRemoteJetpackComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity(), ComposeCallback {
     lateinit var mainPresenter: MainPresenter
 
     private val config = RemoteComposeConfig(
-        baseUrl = "https://raw.githubusercontent.com/vvsdevs/AndroidDynamicJetpackCompose/refs/heads/main/remote-compose/src/main/assets/",
+        baseUrl = "https://https://raw.githubusercontent.com/vvsdevs/AndroidDynamicJetpackCompose/refs/tags/v1.3.0/remote-compose/src/main/assets/",
         uiComponentPath = "compose.json",
         screenPath = "compose_screen1.json"
     )

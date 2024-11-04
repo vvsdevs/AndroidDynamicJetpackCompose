@@ -1,4 +1,4 @@
-package com.android.dynamicJetpackCompose.compose
+package com.android.dynamicjetpackcompose.compose
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -55,9 +55,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import com.android.dynamicJetpackCompose.model.ModifierData
-import com.android.dynamicJetpackCompose.model.UIComponent
-import com.android.dynamicJetpackCompose.presenter.MainPresenter
+import com.android.dynamicjetpackcompose.model.ModifierData
+import com.android.dynamicjetpackcompose.model.UIComponent
+import com.android.dynamicjetpackcompose.presenter.MainPresenter
 
 @Composable
 fun DynamicLayout(

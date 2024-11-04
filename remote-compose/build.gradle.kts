@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.android.dynamicJetpackCompose"
+    namespace = "com.android.dynamicjetpackcompose"
     compileSdk = 34
 
     defaultConfig {

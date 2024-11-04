@@ -1,7 +1,7 @@
-package com.android.dynamicJetpackCompose.network
+package com.android.dynamicjetpackcompose.network
 
-import com.android.dynamicJetpackCompose.model.ModifierData
-import com.android.dynamicJetpackCompose.model.UIComponent
+import com.android.dynamicjetpackcompose.model.ModifierData
+import com.android.dynamicjetpackcompose.model.UIComponent
 import com.google.gson.JsonArray
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer

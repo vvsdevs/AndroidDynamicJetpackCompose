@@ -1,4 +1,4 @@
-package com.android.dynamicJetpackCompose.utils
+package com.android.dynamicjetpackcompose.utils
 
 data class RemoteComposeConfig(
     val baseUrl: String,

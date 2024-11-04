@@ -1,6 +1,6 @@
-package com.android.dynamicJetpackCompose.network
+package com.android.dynamicjetpackcompose.network
 
-import com.android.dynamicJetpackCompose.model.UIComponent
+import com.android.dynamicjetpackcompose.model.UIComponent
 import retrofit2.http.GET
 import retrofit2.http.Path
 

@@ -1,4 +1,4 @@
-package com.android.dynamicJetpackCompose
+package com.android.dynamicjetpackcompose
 
 import org.junit.Test
 
