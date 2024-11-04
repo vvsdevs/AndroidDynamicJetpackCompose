@@ -1,4 +1,4 @@
-![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/dynamic.png)
+![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/dynamic.png)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  ![](https://img.shields.io/badge/Jetpack%20Compose-1.0.1-brightgreen)  [![](https://jitpack.io/v/vvsdevs/AndroidDynamicJetpackCompose.svg)](https://jitpack.io/#vvsdevs/AndroidDynamicJetpackCompose)  [![API](https://img.shields.io/badge/API-19%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=19)   ![CircleCI](https://circleci.com/gh/CymChad/BaseRecyclerViewAdapterHelper/tree/master.svg?style=svg)
 
 # Android Remote Jetpack Compose
@@ -8,9 +8,9 @@ Android Dynamic Jetpack Compose is a powerful library that enables dynamic layou
 ## Few of Basic Designs that we did using this library
 
 <p align="center">
-  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/home.png" alt="Home Design" width="200"/>
-  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/player.png" alt="Player Design" width="200"/>
-  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/remote-compose/src/main/assets/login.png" alt="Login Design" width="200"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/home.png" alt="Home Design" width="200"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/player.png" alt="Player Design" width="200"/>
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/login.png" alt="Login Design" width="200"/>
 </p>
 
 ## Features
@@ -377,7 +377,7 @@ This manual provides an overview of each component and its usage in the Android 
 
 ## Manual
 
-For advanced usage, take a look at this awesome [manual](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/main/MANUAL.md).
+For advanced usage, take a look at this awesome [manual](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/MANUAL.md).
 
 ### Contributing
 We welcome contributions to Android Remote Jetpack Compose! If you want to contribute:
