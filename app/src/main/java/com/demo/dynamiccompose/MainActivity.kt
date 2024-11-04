@@ -71,7 +71,7 @@ class MainActivity : ComponentActivity(), ComposeCallback {
 
     override fun showComponents(components: UIComponent) {
         uiComponent = components
-        Log.d("MainActivity", "Components loaded: $components")
+        Log.d("MainActivity", "Components loaded:  $components")
     }
 
     @Composable
