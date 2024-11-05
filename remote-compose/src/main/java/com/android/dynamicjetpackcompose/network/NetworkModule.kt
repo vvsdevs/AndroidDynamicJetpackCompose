@@ -29,7 +29,7 @@ object NetworkModule {
     @Singleton
     fun provideRemoteComposeConfig(): RemoteComposeConfig {
         return RemoteComposeConfig(
-            baseUrl = "https://https://raw.githubusercontent.com/vvsdevs/AndroidDynamicJetpackCompose/refs/tags/v1.3.0/remote-compose/src/main/assets/",
+            baseUrl = "https://raw.githubusercontent.com/vvsdevs/AndroidDynamicJetpackCompose/refs/heads/master/remote-compose/src/main/assets/",
             uiComponentPath = "compose.json",
             screenPath = "compose_screen1.json",
             loadFrom = "remote"
