@@ -1,7 +1,8 @@
+import com.vanniktech.maven.publish.SonatypeHost
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("maven-publish")
+    id("com.vanniktech.maven.publish") version "0.30.0"
     kotlin("kapt")
 }
 
@@ -11,12 +12,6 @@ android {
 
     defaultConfig {
         minSdk = 24
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
-        vectorDrawables {
-            useSupportLibrary = true
-        }
     }
 
     buildTypes {
@@ -90,16 +85,39 @@ dependencies {
     //preferences
     implementation(libs.androidx.datastore.preferences)
 }
-publishing {
-    publications {
-        register<MavenPublication>("release") {
-            groupId = "com.github.vvsdevs"
-            artifactId = "com.android.dynamicjetpackcompose"
-            version = "1.4.0"
+mavenPublishing {
+    // publishing to https://s01.oss.sonatype.org
+    publishToMavenCentral(SonatypeHost.S01)
+    signAllPublications()
+}
 
-            afterEvaluate {
-                from(components["release"])
+
+mavenPublishing {
+    coordinates("com.vvsdevs.AndroidDynamicJetpackCompose", "AndroidDynamicJetpackCompose", "1.4.0")
+
+    pom {
+        name.set("remote-compose")
+        description.set("Android Dynamic Jetpack Compose is a powerful library that enables dynamic layout rendering based on JSON configurations using Jetpack Compose. This library allows developers to design and update UI elements dynamically without needing to release a new app update, making it a flexible and efficient solution for Android applications.")
+        inceptionYear.set("2024")
+        url.set("https://github.com/vvsdevs/AndroidDynamicJetpackCompose/")
+        licenses {
+            license {
+                name.set("The Apache License, Version 2.0")
+                url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                distribution.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
             }
+        }
+        developers {
+            developer {
+                id.set("vvsdevs")
+                name.set("Venky")
+                url.set("https://github.com/vvsdevs/")
+            }
+        }
+        scm {
+            url.set("https://github.com/vvsdevs/AndroidDynamicJetpackCompose/")
+            connection.set("scm:git:git://github.com/vvsdevs/AndroidDynamicJetpackCompose.git")
+            developerConnection.set("scm:git:ssh://git@github.com/vvsdevs/AndroidDynamicJetpackCompose.git")
         }
     }
 }
