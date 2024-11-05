@@ -90,8 +90,8 @@ publishing {
     publications {
         register<MavenPublication>("release") {
             groupId = "com.github.vvsdevs"
-            artifactId = "AndroidDynamicJetpackCompose"
-            version = "1.5.0"
+            artifactId = "androiddynamicjetpackcompose"
+            version = "1.6.0"
 
             afterEvaluate {
                 from(components["release"])
