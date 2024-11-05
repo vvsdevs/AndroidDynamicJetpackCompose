@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
     kotlin("kapt")
+    id("maven-publish")
 }
 
 android {
@@ -40,7 +41,12 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 }
 
 dependencies {
@@ -80,3 +86,16 @@ dependencies {
     implementation(libs.androidx.datastore.preferences)
 }
 
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.vvsdevs"
+            artifactId = "AndroidDynamicJetpackCompose"
+            version = "1.5.0"
+
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
+}
