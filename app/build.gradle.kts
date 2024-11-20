@@ -88,6 +88,5 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.7.4")
     // Preferences
     implementation("androidx.datastore:datastore-preferences:1.1.1")
-   // implementation ("com.github.vvsdevs:AndroidDynamicJetpackCompose:-SNAPSHOT")
 }
 

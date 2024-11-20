@@ -48,12 +48,12 @@ Android Dynamic Jetpack Compose is a powerful library that enables dynamic layou
 2. Add the dependency to your module's `build.gradle` file:
     ```groovy
     dependencies {
-        implementation ("com.github.vvsdevs:androiddynamicjetpackcompose:1.9.0")
-   
-        implementation ("com.google.dagger:hilt-android:2.51.1")
-        kapt ("com.google.dagger:hilt-compiler:2.51.1")
-        implementation ("androidx.compose.ui:ui:1.5.1")
-        implementation ("androidx.navigation:navigation-compose:2.5.3")
+        implementation ("com.github.vvsdevs:AndroidDynamicJetpackCompose:1.9.0") 
+       //Optional
+        implementation("com.google.dagger:hilt-android:2.51.1")
+        kapt("com.google.dagger:hilt-compiler:2.51.1")
+        implementation("androidx.navigation:navigation-compose:2.8.2")
+        implementation("androidx.activity:activity-compose:1.9.2") 
     }
     ```
 
