@@ -68,7 +68,8 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.navigation:navigation-compose:2.8.2")
-    implementation(project(":remote-compose"))
+    //implementation(project(":remote-compose"))
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
@@ -87,5 +88,6 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.7.4")
     // Preferences
     implementation("androidx.datastore:datastore-preferences:1.1.1")
+    implementation ("com.github.vvsdevs:androiddynamicjetpackcompose:1.7.0")
 }
 

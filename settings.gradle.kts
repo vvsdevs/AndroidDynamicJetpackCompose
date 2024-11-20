@@ -22,4 +22,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Android Remote Jetpack Compose"
 include(":app")
-include(":remote-compose")
+//include(":remote-compose")
