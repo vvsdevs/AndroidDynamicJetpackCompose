@@ -24,12 +24,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-
-    kotlinOptions {
-        jvmTarget = "1.8"
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 
     buildFeatures {
@@ -91,8 +87,8 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             groupId = "com.github.vvsdevs"
-            artifactId = "androiddynamicjetpackcompose"
-            version = "1.7.0"
+            artifactId = "AndroidDynamicJetpackCompose"
+            version = "1.9.0"
 
             afterEvaluate {
                 from(components["release"])
