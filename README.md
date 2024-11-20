@@ -119,12 +119,84 @@ override fun onCreate(savedInstanceState: Bundle?) {
     mainPresenter.loadUiComponents()
     setContent { MyApp() }
 }
+
 ```
 2.	Use the DynamicLayout composable to render the screen dynamically:
+
 ```kotlin
+private var uiComponent by mutableStateOf<UIComponent?>(null)
+private var errorMessage by mutableStateOf("")
+
+override fun showError(message: String) {
+  this.errorMessage = message
+  Log.e("MainActivity", "Error: $message")
+  Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+}
+
+override fun showComponents(components: UIComponent) {
+  uiComponent = components
+  Log.d("MainActivity", "Components loaded:  $components")
+}
+
+//customization
 @Composable
 fun MyApp() {
-    DynamicLayout(uiComponent, navController, mainPresenter)
+  DynamicLayout(uiComponent, navController, mainPresenter)
+}
+
+@Composable
+fun MyApp() {
+  val context = LocalContext.current
+  val navController = rememberNavController()
+  BackHandler(enabled = true) {
+    if (!navController.popBackStack()) {
+      (context as? ComponentActivity)?.finish()
+    }
+  }
+  Scaffold(
+    topBar = {
+      TopAppBar(
+        title = { Text("Top Bar") },
+        actions = {
+          // Add any actions if needed
+        }
+      )
+    },
+    floatingActionButton = {
+      FloatingActionButton(onClick = { mainPresenter.loadUiComponents() }) {
+        Text("+")
+      }
+    }
+  ) { paddingValues ->
+    Box(modifier = Modifier.padding(paddingValues)) {
+      NavHost(navController, startDestination = "mainScreen") {
+        composable("mainScreen") {
+          uiComponent?.let {
+            DynamicLayout(it, navController, mainPresenter)
+          }
+        }
+        composable("navigate/{screenId}") { backStackEntry ->
+          val screenId = backStackEntry.arguments?.getString("screenId")
+          screenId?.let {
+            LaunchedEffect(Unit) {
+              mainPresenter.loadScreenById(it) { success ->
+                if (!success) {
+                  Toast.makeText(
+                    context,
+                    "Design for $screenId not found",
+                    Toast.LENGTH_SHORT
+                  ).show()
+                }
+              }
+            }
+          }
+          uiComponent?.let {
+            DynamicLayout(it, navController, mainPresenter)
+          }
+        }
+      }
+    }
+  }
 }
 ```
 
@@ -143,6 +215,8 @@ fun handleAction(action: String, context: Context, mainPresenter: MainPresenter)
 }
 ```
 
+
+    
 ## Supported UI Components
 
 - **Text**: Displays text with customizable color, font size, and alignment.
