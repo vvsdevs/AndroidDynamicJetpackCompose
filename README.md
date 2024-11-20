@@ -1,27 +1,39 @@
 ![](https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/dynamic.png)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  ![](https://img.shields.io/badge/Jetpack%20Compose-1.0.1-brightgreen)  [![](https://jitpack.io/v/vvsdevs/AndroidDynamicJetpackCompose.svg)](https://jitpack.io/#vvsdevs/AndroidDynamicJetpackCompose)  [![API](https://img.shields.io/badge/API-19%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=19)   ![CircleCI](https://circleci.com/gh/CymChad/BaseRecyclerViewAdapterHelper/tree/master.svg?style=svg)
 
-# Android Remote Jetpack Compose
+# Android Remote Jetpack Compose: Server-Side Driven UI Using Compose
 
-Android Dynamic Jetpack Compose is a powerful library that enables dynamic layout rendering based on JSON configurations using Jetpack Compose. This library allows developers to design and update UI elements dynamically without needing to release a new app update, making it a flexible and efficient solution for Android applications.
+Android Remote Jetpack Compose is a revolutionary library designed for server-side driven UI development in Android applications using Jetpack Compose. It allows developers to dynamically render layouts from JSON configurations, enabling seamless updates to app interfaces without releasing new versions. This flexibility is ideal for rapidly evolving projects, offering robust support for dynamic UI design and server-side integration.
 
 ## Few of Basic Designs that we did using this library 
 
 <p align="center">
+  <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/zepto.png" alt="Home Design" width="200"/>
   <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/home.png" alt="Home Design" width="200"/>
   <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/player.png" alt="Player Design" width="200"/>
   <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/login.png" alt="Login Design" width="200"/>
 </p>
 
-## Features
-- Dynamic rendering of Jetpack Compose layouts from JSON configurations.
-- Support for a wide range of UI components like Text, Image, Button, ScrollView, Card, Column, and more.
-- Integration with Retrofit for fetching JSON layout data from a remote server.
-- Lightweight and easy-to-integrate using Hilt for dependency injection.
-- Support for Material3 components and custom theming.
+## Why Choose Android Remote Jetpack Compose?
 
-## Overview
-**Android Remote Jetpack Compose** is a dynamic layout rendering solution for Android using Jetpack Compose. This library allows developers to define UI components and layouts through JSON files, making it easy to update UI elements dynamically without needing an app update. It leverages Kotlin, Jetpack Compose, and dependency injection through Hilt, providing a flexible and modular architecture.
+- Server-Side Driven UI (SSDU): Effortlessly update your app's UI by managing configurations on the server, reducing app downtime and deployment delays.
+- Jetpack Compose-Based Dynamic Layouts: Harness the power of Jetpack Compose to create dynamic, reactive, and efficient UI components driven by JSON.
+- Flexibility for Modern App Development: Tailor your app's design instantly using a server-side approach, perfect for apps with frequent updates or personalized content.
+- Seamless Integration with Server APIs: Use Retrofit to fetch JSON configurations directly from your server, enabling real-time UI updates without app updates.
+
+## Key Features
+- Dynamic JSON-Driven UI: Modify and manage layouts from the server without updating the app.
+- Support for a Wide Range of Compose Components: From basic elements like Text and Button to advanced layouts like LazyColumn and LazyRow.
+- Material Design 3 Compliance: Build modern and stylish UIs with Material Design 3 integration.
+- Lightweight Architecture: Designed to minimize overhead and maximize flexibility, leveraging Hilt for dependency injection.
+- Customizable and Scalable: Adapt to changing design needs with ease.
+
+## Why Server-Side Driven UI?
+Server-Side Driven UI (SSDU) is the future of mobile development, allowing for centralized UI management:
+
+- Real-Time Updates: Make UI changes instantly by updating server configurations.
+- Reduced App Update Cycles: No need to publish new app versions for design tweaks.
+- Personalized Experiences: Dynamically adjust layouts and content for individual users based on server-driven logic.
 
 ## Table of Contents
 - [Installation](#installation)
