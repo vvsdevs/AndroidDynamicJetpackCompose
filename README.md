@@ -12,6 +12,10 @@ Android Remote Jetpack Compose is a revolutionary library designed for server-si
   <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/home.png" alt="Home Design" width="200"/>
   <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/player.png" alt="Player Design" width="200"/>
   <img src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/login.png" alt="Login Design" width="200"/>
+ <video width="320" height="240" controls>
+    <source src="https://github.com/vvsdevs/AndroidDynamicJetpackCompose/blob/master/remote-compose/src/main/assets/ServerSideDrivenUI.webm" type="video/webm">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 ## Why Choose Android Remote Jetpack Compose?
